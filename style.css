@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+.menusuperior{
+    background-color: #303030;
+    color: white;
+    display: grid;
+
+}
+#titulosuperior{
+    margin-left: 50px;
+    margin-top: 90px;
+    font-size: 50px;
+}
+#subtitulosuperior{
+    margin-left: 50px;
+    margin-bottom: 110px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#empreendimentos{
+   margin-top: 75px;
+   margin-left: 130px;
+}
+#menuinformacional{
+    font-size: 22px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-bottom: 50px;
+}
+#anos{
+    margin-top: 75px;
+    margin-right: 25px;
+}
+#m²{
+    margin-top: 75px;
+}
+.Arquitetos{
+    display: grid;
+    grid-auto-flow: column ;
+    margin-top: 80px;
+    font-size: 23px;
+    margin-right: 150px;
+}
+#titlemenuinfo{
+    margin-top: 250px;
+    margin-left: 300px;
+}
+#saladeestar{
+    margin-top: 50px;
+}
+.inputt{
+   background-color: #303030; 
+   color: white;
+   text-align: center;
+   margin-top: 150px;
+}
+input{
+    width: 400px;
+    height: 72px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+button{
+    height: 74px; 
+    width: 286px;
+    background-color: #C07212;
+    border: 0px;
+    border-radius: 9px;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateY(-5px);
+}
